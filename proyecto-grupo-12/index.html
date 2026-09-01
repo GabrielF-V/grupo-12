@@ -1,24 +1,130 @@
 
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	<header>
-		<h1>Sonido Vivo</h1>
-		<nav>
-			<ul>
-				<li><a href = "#productos">Productos</a></li>
-				<li><a href = "#registros">Registro</a></li>
-				<li><a href = "#login">Login</a></li>
-			</ul>
-		</nav>
-	</header>
-		<footer>
-			<p><small>&copy; 2026 Sonido Vivo - Todos los derechos reservados</small></p>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Armeria Duoc</title>
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>  
+
+		<header id="encabezado">
+			<h1>Sonido Vivo Web</h1> 
+
+			<nav id="menu-principal">
+				
+				<div>
+					<img src="img/logoEncabezado.png" alt="logoEncabezado" width="60px"> 
+				</div>
+			
+					<a href="#inicio">Inicio</a>
+					<a href="#album">Álbum</a>
+					<a href="#contacto">Contacto</a>
+					   
+				
+			</nav>
+		</header>
+
+		<main id="contenido">
+			<section id="inicio" class="seccion">
+				<h2>Aventurados seais</h2>
+				<p>Esta es una página dedicada a la venta y reparaciones de articulos metalicos</p>
+				<p>Tomate tu tiempo y disfruta</p>
+			</section>
+
+			<section id="album" class="seccion">
+				<h2>Álbum</h2>
+				<p>Nuestros produtos</p>
+
+				<div class="galeria">
+					<!-- Tarjeta 1 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+							 <img src="img/Marto-Armadura-Decorada-Oro.gif">
+							 
+							
+						</div>
+						<h3>Armaduras</h3>
+						<p>Aqui encontraras desde protectores de brazos hasta nuestras armadura de placas.</p>
+					</article>
+
+					<!-- Tarjeta 2 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+							 <img src="img/bacinete.jpg">
+						</div>
+						<h3>Cascos</h3>
+						<p>Para mantener tu cabeza en su lugar.</p>
+					</article>
+
+					<!-- Tarjeta 3 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+							  <img src="img/">
+						</div>
+						<h3>Escudos</h3>
+						<p>Desde rodelas hasta paveses.</p>
+					</article>
+
+					<!-- Tarjeta 4 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+						</div>
+						<h3>Armas</h3>
+						<p>Nada mejor que un buen trozo de metal para mantener a tus enemigos lejos</p>
+					</article>
+
+					<!-- Tarjeta 5 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+						</div>
+						<h3>Accesorios</h3>
+						<p>Para los que tienen buen estilo.</p>
+					</article>
+
+					<!-- Tarjeta 6 -->
+					<article class="tarjeta">
+						<div class="espacio-imagen">
+							<!-- Aquí iría una imagen -->
+						</div>
+						<h3>Kits para reprar y mantener</h3>
+						<p>kits de reparaciones variados para tus articulos.</p>
+					</article>
+				</div>
+			</section>
+
+			<section id="contacto" class="seccion">
+				<h2>Contacto</h2>
+				<p>Si tienes dudas o comentarios, puedes escribirnos:</p>
+
+				<form action="#" method="post">
+					<label for="nombre">Nombre:</label><br>
+					<input type="text" id="nombre" name="nombre"><br><br>
+
+					<label for="email">Correo:</label><br>
+					<input type="email" id="email" name="email"><br><br>
+
+					<label for="mensaje">Mensaje:</label><br>
+					<textarea id="mensaje" name="mensaje" rows="4" cols="30"></textarea><br><br>
+
+					<button type="submit">Enviar</button>
+					<button type="reset">Limpiar</button>
+				</form>
+			</section>
+		</main>
+
+		<footer id="pie">
+			<p><small>&copy; 2026 Sonido Vivo - Todos los derechos reservadoss</small></p>
 		</footer>
+	
+
+
 </body>
 </html>
