@@ -1,0 +1,124 @@
+body{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+background-color: black;
+color: white;
+padding: 0%;
+margin:3;
+}
+
+#encabezado{
+    background-color: rgb(29, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#menu-principal ul{
+ list-style: none;
+ display: flex;
+ gap: 60px;
+ justify-content: center;
+
+}
+
+#menu-principal ul li a{
+ text-decoration: none;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color: black;
+ background-color: darkgray;
+ font-size: large;
+ padding: 8px;
+ border-radius: 4px;
+}
+
+#contenido{
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.seccion{
+    background-color: rgb(29, 22, 22);
+    padding: 15px;
+}
+
+.espacio-imagen img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.tarjeta{
+
+    height: 500px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.galeria{
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+}
+
+#pie{
+    background-color: rgb(29, 22, 22);
+    padding: 5px;
+    text-align: center;
+}
+
+/* Cosas nuevas */
+
+.boton {
+  transition-duration: 0.4s;
+}
+
+.boton:hover {
+  background-color: #1b1b1b;
+  color: white;
+}
+
+.pop-imagen {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease; 
+}
+
+.pop-imagen:hover {
+  transform: scale(1.2); 
+  position: relative;    
+  z-index: 10;           
+}
+
+.shake-hard:hover {
+  animation: dynamicShake 0.4s 5;
+}
+
+@keyframes dynamicShake {
+
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(2px, 2px) rotate(2deg); }
+  50% { transform: translate(-2px, -2px) rotate(-2deg); }
+  75% { transform: translate(2px, -2px) rotate(-2deg); }
+}
+
+.fade-box {
+  opacity: 0.1; 
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.fade-box:hover {
+  opacity: 1; 
+}
+
+.stretch-hover {
+  display: inline-block;       
+  transition: transform 0.3s ease; /
+  transform-origin: center;    
+}
+
+.stretch-hover:hover {
+  transform: scaleX(5);     
+}
