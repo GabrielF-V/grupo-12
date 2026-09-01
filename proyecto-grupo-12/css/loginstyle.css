@@ -6,6 +6,25 @@ body{
     text-align: center;
     padding: 0;
     margin:  0;
+/* 1. Unvisited link */
+a:link {
+  color: yellow;
+}
+
+/* 2. Visited link */
+a:visited {
+  color: orange;
+}
+
+/* 3. Mouse-over/Hover link */
+a:hover {
+  color: white;
+}
+
+/* 4. Active/Selected link (the moment it is clicked) */
+a:active {
+  color: white;
+}
 }    
 
 
