@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonido Vivo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="top-bar">
+        <p>Envíos a todo Chile | 11 años de experiencia</p>
+
+    </div>
+
+    <header class="main-header">
+        <nav class="navbar">
+    
+            
+            <div class="nav-brand">
+                <!-- Espacio reservado para la imagen del logo -->
+                 <!-- El concepto de svg me facina cuanto menos, con codigo crea una imagen...como lo estamos haciendo ahora con css -->
+                <img src="img/logo.svg" alt="Logo Sonido Vivo" class="logo">
+                <span class="brand-name">Sonido Vivo</span>
+            </div>
+
+            <!-- Sector del menu de navegacion -->
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="productos.html" class="nav-link">Productos</a></li>
+                <li><a href="login.html" class="nav-link">Iniciar Sesión</a></li>
+                <li><a href="registro.html" class="nav-link">Registro</a></li>
+            </ul>
+
+        </nav>
+</header>
+        <!-- Main por que mi asistente dijo que simon -->
+    <main>
+        <!-- Una seccion hero se refiere a lo primero que vera el usuario, algo impactante en escena baby-->
+        <!-- Seccion de bucle loooooop -->
+        <section class="hero-section">
+            <!--  video HTML5 -->
+            <video autoplay loop muted playsinline class="hero-video">
+            <source src="media/banner-video.mp4" type="video/mp4">
+            Tu navegador no soporta el formato de video.
+            </video>
+
+            <!-- una capa oscura para que se vea mejor -->
+            <div class="hero-overlay"></div>
+
+            <!-- Contenido encima del video -->
+            <div class="hero-content">
+            <h1>Pasión por la Música en Viña del Mar</h1>
+            <p>Instrumentos, equipos de sonido y taller de reparación especializado. Envíos directos a todo Chile.</p>
+            <a href="productos.html" class="btn-primary">Explorar Catálogo</a>
+            </div>
+        </section>
+
+        <!-- Sección de catalago -->
+  <section class="categories-section">
+    <h2>Nuestros Productos</h2>
+    <p class="section-subtitle">Explora las principales categorías de instrumentos y equipos disponibles en Sonido Vivo.</p>
+
+    <div class="categories-grid">
+      
+      <!--  Guitarras -->
+      <article class="category-card">
+        <img src="img/guitarraCategoria.jpg" alt="Guitarras Eléctricas y Acústicas" class="category-img">
+        <div class="category-info">
+          <h3>Guitarras</h3>
+          <p>Eléctricas, electroacústicas y clásicas de las mejores marcas.</p>
+          <a href="productos.html" class="btn-category">Ver Guitarras</a>
+        </div>
+      </article>
+
+      <!--  Bajos -->
+      <article class="category-card">
+        <img src="img/bajoCategoria.jpg" alt="Bajos Eléctricos" class="category-img">
+        <div class="category-info">
+          <h3>Bajos</h3>
+          <p>Modelos de 4 y 5 cuerdas con electrónica pasiva y activa.</p>
+          <a href="productos.html" class="btn-category">Ver Bajos</a>
+        </div>
+      </article>
+
+      <!--  Baterías y Percusión -->
+      <article class="category-card">
+        <img src="img/bateriaCategoria.jpg" alt="Baterías y Percusión" class="category-img">
+        <div class="category-info">
+          <h3>Baterías</h3>
+          <p>Kits acústicos, baterías electrónicas, platillos y repuestos.</p>
+          <a href="productos.html" class="btn-category">Ver Baterías</a>
+        </div>
+      </article>
+
+      <!-- Teclados -->
+      <article class="category-card">
+        <img src="img/tecladoCategoria.jpg" alt="Teclados y Pianos" class="category-img">
+        <div class="category-info">
+          <h3>Teclados</h3>
+          <p>Sintetizadores, controladores MIDI y pianos digitales.</p>
+          <a href="productos.html" class="btn-category">Ver Teclados</a>
+        </div>
+      </article>
+
+      <!--  Amplificadores -->
+      <article class="category-card">
+        <img src="img/amplificadorPng.jpg" alt="Amplificadores" class="category-img">
+        <div class="category-info">
+          <h3>Amplificadores</h3>
+          <p>Cabezales, gabinetes y combos a tubos o transistorizados.</p>
+          <a href="productos.html" class="btn-category">Ver Amplificadores</a>
+        </div>
+      </article>
+
+      <!--  Micrófonos, Pedales y Accesorios -->
+      <article class="category-card">
+        <img src="img/accesoriosCategoria.jpg" alt="Micrófonos, Pedales y Accesorios" class="category-img">
+        <div class="category-info">
+          <h3>Accesorios y Audio</h3>
+          <p>Micrófonos, pedales de efectos, cables, cuerdas y fundas.</p>
+          <a href="productos.html" class="btn-category">Ver Accesorios</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Footer-->
+<footer class="main-footer">
+  <div class="footer-container">
+    
+    <!-- Información de la Empresa -->
+    <div class="footer-column">
+      <h3>Sonido Vivo</h3>
+      <p class="footer-desc">
+        Más de 11 años ofreciendo los mejores instrumentos musicales y equipos de sonido para músicos de Viña del Mar y todo Chile.
+      </p>
+      <div class="repair-badge">
+        <p>🛠️ <strong>¡Atención!</strong> También hacemos servicio de reparaciones y mantención de instrumentos de cuerda.</p>
+      </div>
+    </div>
+
+    <!--  Ubicación y Contacto -->
+    <div class="footer-column">
+      <h4>Ubicación</h4>
+      <p>📍 Arlegui #450, Viña del Mar</p>
+      <p>Región de Valparaíso, Chile</p>
+      <p>📧 contacto@sonidovivo.cl</p>
+      
+    </div>
+
+    <!--Super tierra lo aprueba -->
+    <div class="footer-column approval-box">
+      <img src="img/SuperTierra.png" alt="Garantía de calidad" class="approval-img">
+      <span class="approval-text">¡Aprobado por el ministerio de seguridad de super tierra!</span>
+    </div>
+
+  </div>
+
+  <!-- Barra de Derechos Reservados -->
+  <div class="footer-bottom">
+    <p>&copy; 2026 Sonido Vivo. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+    </main>
+</body>
+
+</html>

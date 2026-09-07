@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fender Stratocaster Player - Sonido Vivo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <p>Envíos a todo Chile | 11 años de experiencia</p>
+  </div>
+
+  <!-- Encabezado Sticky con Contador de Carrito -->
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="img/logo.svg" alt="Logo Sonido Vivo" class="logo">
+        <span class="brand-name">Sonido Vivo</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Inicio</a></li>
+        <li><a href="productos.html" class="nav-link active">Productos</a></li>
+        <li><a href="login.html" class="nav-link">Iniciar Sesión</a></li>
+        <li><a href="registro.html" class="nav-link">Registro</a></li>
+      </ul>
+      <div class="cart-status">
+        Carrito: <span id="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Detalle de Producto -->
+  <main class="product-detail-container">
+    
+    <!-- imagen con Zoom -->
+    <section class="product-gallery">
+  <div class="zoom-container">
+    <img id="main-product-img" src="img/fenderStocoalgo.jpg" alt="Fender Stratocaster Player" class="zoom-img">
+  </div>
+</section>
+
+    <!-- Información y Acciones -->
+    <section class="product-info-panel">
+      <span class="stock-tag">En Stock (Viña del Mar)</span>
+      <h1>Fender Stratocaster Player Series</h1>
+      <p class="sku">Código: SV-GUT-001</p>
+      <p class="detail-price">$780.000</p>
+
+      <p class="detail-description">
+        El sonido inspirador de una Stratocaster es uno de los fundamentos de Fender. Con este sonido clásico: agudos campaniformes, medios articulados y graves robustos, combinados con una articulación cristalina.
+      </p>
+
+      <ul class="specs-list">
+        <li><strong>Cuerpo:</strong> Aliso con acabado en poliéster brillante.</li>
+        <li><strong>Mástil:</strong> Arce con perfil en "C" moderna.</li>
+        <li><strong>Cápsulas:</strong> 3x Player Series Alnico 5 Strat Single-Coil.</li>
+        <li><strong>Puente:</strong> Trémolo de 2 puntos con selletas de acero doblado.</li>
+      </ul>
+
+      <!-- Control de Cantidad y Carrito -->
+      <div class="purchase-controls">
+        <div class="quantity-selector">
+          <button type="button" id="btn-minus" class="qty-btn">-</button>
+          <input type="number" id="qty-input" value="1" min="1" max="10" readonly>
+          <button type="button" id="btn-plus" class="qty-btn">+</button>
+        </div>
+
+        <button type="button" id="btn-add-cart" class="btn-primary btn-cart">
+          Agregar al Carrito
+        </button>
+      </div>
+
+      <!-- Mensaje de confirmación en JS -->
+      <div id="cart-message" class="cart-message hidden">
+        ¡Producto agregado al carrito con éxito! 🎸
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Sonido Vivo</h3>
+        <p class="footer-desc">Más de 11 años ofreciendo los mejores instrumentos musicales y equipos de sonido.</p>
+        <div class="repair-badge">
+          <p>🛠️ <strong>¡Atención!</strong> También hacemos servicio de reparaciones y mantención.</p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Ubicación</h4>
+        <p>📍 Arlegui #450, Viña del Mar</p>
+        <p>Región de Valparaíso, Chile</p>
+        <p>📧 contacto@sonidovivo.cl</p>
+      </div>
+      <div class="footer-column approval-box">
+        <img src="img/SuperTierra.png" alt="Garantía de calidad" class="approval-img">
+        <span class="approval-text">¡Aprobado por el ministerio de seguridad de super tierra!</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sonido Vivo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Archivo JavaScript -->
+  <script src="js/producto.js"></script>
+</body>
+</html>

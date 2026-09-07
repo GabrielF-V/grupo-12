@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos - Sonido Vivo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra superior -->
+  <div class="top-bar">
+    <p>Envíos a todo Chile | 11 años de experiencia</p>
+  </div>
+
+  <!-- Encabezado Sticky con Contador de Carrito -->
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="img/logo.svg" alt="Logo Sonido Vivo" class="logo">
+        <span class="brand-name">Sonido Vivo</span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link">Inicio</a></li>
+        <li><a href="productos.html" class="nav-link active">Productos</a></li>
+        <li><a href="login.html" class="nav-link">Iniciar Sesión</a></li>
+        <li><a href="registro.html" class="nav-link">Registro</a></li>
+      </ul>
+      <div class="cart-status">
+       Carrito: <span id="cart-count">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido Principal -->
+  <main class="catalog-container">
+    <section class="catalog-header">
+      <h1>Catálogo de Productos</h1>
+      <p>Selecciona la cantidad que necesitas y agrégala directamente a tu carrito de compras.</p>
+    </section>
+
+    <section class="catalog-grid">
+
+      <!-- Producto 1 -->
+      <article class="product-card">
+        <img src="img/fenderStocoalgo.jpg" alt="Guitarra Fender Stratocaster" class="product-img">
+        <div class="product-content">
+          <h3>Fender Stratocaster Player</h3>
+          <p class="product-desc">Cuerpo de aliso, mástil de arce en C y 3 cápsulas Single-Coil Alnico 5.</p>
+          <span class="product-price">$780.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Producto 2 -->
+      <article class="product-card">
+        <img src="img/bajo-ibanez.webp" alt="Bajo Eléctrico Ibanez" class="product-img">
+        <div class="product-content">
+          <h3>Bajo Ibanez GSR200 4 Cuerdas</h3>
+          <p class="product-desc">Cuerpo de álamo con ecualizador activo Phat II EQ para graves profundos.</p>
+          <span class="product-price">$320.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Producto 3 -->
+      <article class="product-card">
+        <img src="img/bateriaYamahua.webp" alt="Batería Acústica Yamaha" class="product-img">
+        <div class="product-content">
+          <h3>Batería Yamaha Rydeen 5 Piezas</h3>
+          <p class="product-desc">Vasos de álamo de 6 capas, herrajes dobles reforzados y atril de hi-hat.</p>
+          <span class="product-price">$650.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Producto 4 -->
+      <article class="product-card">
+        <img src="img/ROLAND_XPS10_RD.jpg" alt="Sintetizador Roland" class="product-img">
+        <div class="product-content">
+          <h3>Sintetizador Roland XPS-10</h3>
+          <p class="product-desc">61 teclas con sensibilidad, sonidos profesionales e interfaz intuitiva.</p>
+          <span class="product-price">$490.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Producto 5 -->
+      <article class="product-card">
+        <img src="img/amp_marshal.jpg" alt="Amplificador Marshall" class="product-img">
+        <div class="product-content">
+          <h3>Amplificador Marshall DSL20C</h3>
+          <p class="product-desc">Combo a tubos de 20W con parlante Celestion de 12" y reverb digital.</p>
+          <span class="product-price">$580.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Producto 6 -->
+      <article class="product-card">
+        <img src="img/mic_shure.webp" alt="Micrófono Shure SM58" class="product-img">
+        <div class="product-content">
+          <h3>Micrófono Shure SM58 Vocal</h3>
+          <p class="product-desc">Micrófono dinámico cardioide de estándar profesional para voces en vivo.</p>
+          <span class="product-price">$125.000</span>
+          
+          <div class="card-controls">
+            <div class="quantity-selector">
+              <button type="button" class="btn-qty minus">-</button>
+              <input type="number" class="qty-input" value="1" min="1" max="10" readonly>
+              <button type="button" class="btn-qty plus">+</button>
+            </div>
+            <button type="button" class="btn-primary btn-add-cart">Agregar al Carrito</button>
+          </div>
+          
+          <a href="producto.html" class="btn-detail-link">Ver Detalle del Producto &rarr;</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Pie de Página -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Sonido Vivo</h3>
+        <p class="footer-desc">Más de 11 años ofreciendo los mejores instrumentos musicales y equipos de sonido.</p>
+        <div class="repair-badge">
+          <p>🛠️ <strong>¡Atención!</strong> También hacemos servicio de reparaciones y mantención.</p>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h4>Ubicación</h4>
+        <p>📍 Arlegui #450, Viña del Mar</p>
+        <p>Región de Valparaíso, Chile</p>
+        <p>📧 contacto@sonidovivo.cl</p>
+      </div>
+      <div class="footer-column approval-box">
+        <img src="img/SuperTierra.png" alt="Garantía de calidad" class="approval-img">
+        <span class="approval-text">¡Aprobado por el ministerio de seguridad de super tierra!</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sonido Vivo. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/catalogo.js"></script>
+</body>
+</html>
