@@ -249,3 +249,8 @@ form input:focus{
 div:has(input:focuss) > label{
   background-color: var(--primary-hover);
 }
+
+.xee{
+  display: flex;
+  flex-direction: row;
+}
